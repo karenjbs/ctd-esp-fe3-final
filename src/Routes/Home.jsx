@@ -19,7 +19,7 @@ const Home = () => {
           />
         ))
       ) : (
-        <p>No se encontraron dentistas</p>
+        <p>Cargando Informacion...</p>
       )}
       </div>
     </main>
