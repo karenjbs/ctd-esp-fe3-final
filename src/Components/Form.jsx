@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React, { useState } from "react";
 
 const Form = () => {
@@ -59,17 +58,6 @@ const Form = () => {
         <button type="submit">Enviar</button>
         {error && <p style={{ color: "red", fontWeight: "bold" }}>{error}</p>}
         {successMessage && <p style={{ color: "#1b617c", fontWeight: "bold" }}>{successMessage}</p>}
-=======
-import React from "react";
-
-
-const Form = () => {
-  //Aqui deberan implementar el form completo con sus validaciones
-
-  return (
-    <div>
-      <form>
->>>>>>> 6760254ed6b09c7865f90022f05344b326c232aa
       </form>
     </div>
   );

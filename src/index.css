@@ -12,16 +12,14 @@ code {
     monospace;
 }
 .favButton{
-<<<<<<< HEAD
+
   background-color: #1b617c;
-=======
-  background-color: rgba(136, 136, 136, 0.116);
->>>>>>> 6760254ed6b09c7865f90022f05344b326c232aa
+
   padding: 10px;
   border: none;
   width: 100%;
   cursor: pointer;
-<<<<<<< HEAD
+
   margin-bottom: 10px;
 }
 
@@ -32,15 +30,12 @@ h2{
 p{
   text-align: center;
 }
-=======
-}
 
->>>>>>> 6760254ed6b09c7865f90022f05344b326c232aa
 h1{
   text-align: center;
 }
 
-<<<<<<< HEAD
+
 nav {
   display: flex;
   align-items: center; 
@@ -113,21 +108,9 @@ body.light nav button {
   transition: background-color 0.3s ease; 
 }
 
-
 a{
   color: #000;
   font-weight: bold;
-=======
-nav{
-  display: flex;
-  width: 80vw;
-  justify-content: flex-start;
-  padding: 1rem;
-}
-
-a{
-  color: #000;
->>>>>>> 6760254ed6b09c7865f90022f05344b326c232aa
   text-decoration: none;
   margin: 5px;
   cursor: pointer;
@@ -143,10 +126,6 @@ footer {
   padding: 2rem;
   position: relative;
   bottom: 0;
-<<<<<<< HEAD
-=======
-  width: 90%;
->>>>>>> 6760254ed6b09c7865f90022f05344b326c232aa
   height: 40px;
   margin-top: 2rem;
 }
@@ -160,7 +139,6 @@ footer > p{
   padding-top: 0.7rem;
 }
 
-<<<<<<< HEAD
 form {
   display: flex;
   flex-direction: column;
@@ -205,15 +183,6 @@ button:hover {
   background-color: #707c8a; 
   color: #2e2e2e;
   font-weight: bold;
-=======
-form{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  width: 300px;
-  height: 100px;
-  margin: 0 auto;
->>>>>>> 6760254ed6b09c7865f90022f05344b326c232aa
 }
 
 .card{
@@ -240,7 +209,6 @@ form{
   margin: 0 auto;
 }
 
-<<<<<<< HEAD
 .card-image {
   width: 100%;
   height: auto; 
@@ -248,8 +216,6 @@ form{
   margin-bottom: 6px;
 }
 
-=======
->>>>>>> 6760254ed6b09c7865f90022f05344b326c232aa
 table {
  border-collapse: collapse;
     border-spacing: 0;
@@ -260,16 +226,10 @@ table {
 }
 
 td, th {
-<<<<<<< HEAD
   border: 1px solid #1b617c;
   text-align: left;
   padding: 8px;
   text-align: center;
-=======
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
->>>>>>> 6760254ed6b09c7865f90022f05344b326c232aa
 }
 
 tr:nth-child(even) {
@@ -278,17 +238,11 @@ tr:nth-child(even) {
 
 .dark{
   background-color: #12121296;
-<<<<<<< HEAD
   width: 100%;
-=======
->>>>>>> 6760254ed6b09c7865f90022f05344b326c232aa
   color: white;
 }
 .dark > a {
   color: white;
-<<<<<<< HEAD
 }
 
-=======
-}
->>>>>>> 6760254ed6b09c7865f90022f05344b326c232aa
+
