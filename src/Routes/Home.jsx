@@ -1,17 +1,29 @@
-import React from 'react'
+import React, { useContext} from 'react'
 import Card from '../Components/Card'
-
-//Este componente debera ser estilado como "dark" o "light" dependiendo del theme del Context
+import { ContextGlobal } from '../Components/utils/global.context'
 
 const Home = () => {
+
+  const {dentist} = useContext(ContextGlobal);
+
   return (
     <main className="" >
       <h1>Home</h1>
       <div className='card-grid'>
-        {/* Aqui deberias renderizar las cards */}
+        {dentist.length > 0 ? (
+          dentist.map(dentist => (
+          <Card
+          key={dentist.id}
+          dentist={dentist}
+          />
+        ))
+      ) : (
+        <p>No se encontraron dentistas</p>
+      )}
       </div>
     </main>
   )
 }
 
 export default Home
+
