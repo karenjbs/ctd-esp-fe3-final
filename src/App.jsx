@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Route, Routes } from "react-router-dom";
 import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar";
@@ -28,6 +29,17 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<h1>Page Not Found</h1>}/>
           </Routes>
+=======
+
+import Footer from "./Components/Footer";
+import Navbar from "./Components/Navbar";
+
+
+function App() {
+  return (
+      <div className="App">
+          <Navbar/>
+>>>>>>> 6760254ed6b09c7865f90022f05344b326c232aa
           <Footer/>
       </div>
   );

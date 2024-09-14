@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import axios from "axios";
 import { createContext, useEffect, useReducer, useMemo } from "react";
 import { reducer } from "../../Reducer/reducer";
@@ -55,3 +56,20 @@ export const ContextProvider = ({ children }) => {
     </ContextGlobal.Provider>
   );
 };
+=======
+import { createContext } from "react";
+
+export const initialState = {theme: "", data: []}
+
+export const ContextGlobal = createContext(undefined);
+
+export const ContextProvider = ({ children }) => {
+  //Aqui deberan implementar la logica propia del Context, utilizando el hook useMemo
+
+  return (
+    <ContextGlobal.Provider value={{}}>
+      {children}
+    </ContextGlobal.Provider>
+  );
+};
+>>>>>>> 6760254ed6b09c7865f90022f05344b326c232aa
